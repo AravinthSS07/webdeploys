@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>CBG_Metaverse</title>
+    <title>Unity WebGL Player | CBG_Metaverse</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -114,18 +114,6 @@
         });
       };
       document.body.appendChild(script);
-    </script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build.json", {onProgress: UnityProgress});
-      function GoFullScreen(){
-        if(document.fullscreenEnabled){
-          var canvas = document.querySelector("#gameContainer canvas");
-		  canvas.width = window.innerWidth;
-		  canvas.height = window.innerHeight;
-          canvas.requestFullscreen();
-        }
-      }
-      GoFullScreen();
     </script>
   </body>
 </html>
