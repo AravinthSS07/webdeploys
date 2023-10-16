@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | CBG_Metaverse</title>
+    <title>CBG's Metaverse</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">CBG_Metaverse</div>
+        <div id="unity-build-title">CBG's Metaverse</div>
       </div>
     </div>
     <script>
@@ -56,15 +56,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/CBG_Metaverse_SinglePlayer.loader.js";
+      var loaderUrl = buildUrl + "/CBG_Metaverse_WebAsm.loader.js";
       var config = {
-        dataUrl: buildUrl + "/CBG_Metaverse_SinglePlayer.data.gz",
-        frameworkUrl: buildUrl + "/CBG_Metaverse_SinglePlayer.framework.js.gz",
-        codeUrl: buildUrl + "/CBG_Metaverse_SinglePlayer.wasm.gz",
+        dataUrl: buildUrl + "/CBG_Metaverse_WebAsm.data",
+        frameworkUrl: buildUrl + "/CBG_Metaverse_WebAsm.framework.js",
+        codeUrl: buildUrl + "/CBG_Metaverse_WebAsm.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "CBG_Metaverse",
-        productVersion: "0.1",
+        companyName: "CBG",
+        productName: "CBG's Metaverse",
+        productVersion: "1.2",
         showBanner: unityShowBanner,
       };
 
