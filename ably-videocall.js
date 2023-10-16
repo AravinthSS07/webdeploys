@@ -93,7 +93,8 @@ function initiateCall(client_id) {
         })
         .catch(function(err) {
             /* handle the error */
-            alert('Could not get video stream from source')
+            //alert('Could not get video stream from source')
+            console.log("No video feed available")
         })
 }
 AblyRealtime.subscribe(`rtc-signal/${clientId}`, msg => {
